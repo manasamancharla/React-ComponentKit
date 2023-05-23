@@ -1,0 +1,90 @@
+.slider_container {
+  width: 400px;
+  height: 380px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.slides_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: transform ease-out 0.3s;
+}
+
+.slides_wrapper_overflow {
+  overflow: hidden;
+  height: 100%;
+}
+
+.slide {
+  border-radius: 10px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.slide > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 32px;
+  margin-bottom: 0.5rem;
+}
+
+.slide > .name {
+  margin: 0.5rem 0;
+}
+
+.slide > .review {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.test {
+  position: relative;
+  height: 45px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 32px;
+  color: #000;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 32px;
+  color: #000;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dots_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.dot {
+  margin: 0 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.activedot {
+  color: palevioletred;
+  font-size: 12px;
+}
