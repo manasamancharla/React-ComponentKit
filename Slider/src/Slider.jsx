@@ -72,7 +72,7 @@ function Slider({ slides }) {
         </div>
       </div>
 
-      <div className="test">
+      <div className="slider_nav">
         <div className="left_arrow" onClick={goToPrevious}>
           ❰
         </div>
